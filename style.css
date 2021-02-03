@@ -156,80 +156,13 @@ button.btn.btn-primary {
   }
 }
 @media only screen and (min-device-width: 767px) and (max-device-width: 1023px) {
-  #section_fit1 {
-    padding: 0px 10px;
-  }
-  #section_fit2 {
-    padding: 0px 10px;
-  }
-  #section_fit3 {
-    padding: 0px 10px;
-  }
-  .content {
-    text-align: center;
-    width: 87%;
-    margin-left: 10px;
-  }
   #section_fit1 .images {
     height: auto;
-    width: 70%;
-    margin-left: 40px;
+    width: 110%;
+    margin-left: 28px;
+    margin-bottom: 4rem;
   }
-  .demo {
-    border-bottom: 3px solid#17bebb;
-    margin-bottom: -1px;
-    margin-right: 141px;
-  }
-  #forms {
-    height: auto;
-    width: 50%;
-    margin: 0 1px 0 -15px;
-    padding: 0;
-    background: #fff;
-  }
-  ul.why {
-    margin-left: 10px;
-  }
-  #section_fit2 .images {
-    height: auto;
-    width: 90%;
-    margin-left: 10px;
-  }
-  .heading {
-    text-align: center;
-    padding-right: 0 !important;
-  }
-  #section_fit3 .images {
-    height: auto;
-    width: 70%;
-    margin-top: 50px;
-    margin-left: 110px;
-    margin-bottom: 50px;
-  }
-  #card_1 {
-    padding-right: 15px;
-  }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1040px) {
-  #section_fit1 {
-    padding: 0px 25px;
-  }
-  #section_fit2 {
-    padding: 0px 25px;
-  }
-  #section_fit3 {
-    padding: 0px 25px;
-  }
-  .content {
-    text-align: center;
-    width: 70%;
-    margin-left: 100px;
-  }
-  /* #section_fit1 .images {
-    height: auto;
-    width: 60%;
-    margin-left: 123px;
-  } */
+
   #forms {
     height: auto;
     width: 40%;
@@ -238,7 +171,38 @@ button.btn.btn-primary {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    background: #fff;
+  }
+  .demo {
+    margin-right: 7rem;
+    color: #000;
+  }
+  .d-flex.flex-row.imgz {
+    margin-left: 6rem;
+    width: 20%;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1040px) {
+  #section_fit1 .images {
+    height: auto;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 2rem;
+  }
+  #forms {
+    height: auto;
+    width: 36%;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
     padding: 20px;
     background: #fff;
+  }
+  .d-flex.flex-row.imgz {
+    margin-left: 8rem;
+    width: 16%;
   }
 }
